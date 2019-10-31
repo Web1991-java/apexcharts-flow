@@ -225,8 +225,8 @@ class ApexChartsWrapper extends PolymerElement {
     }
 
     updateData() {
-        if (this.chartObj) {
-            this.chartObj.updateSeries(JSON.parse(this.series))
+        if (this.chartComponent) {
+            this.chartComponent.updateSeries(JSON.parse(this.series))
         }
     }
 
